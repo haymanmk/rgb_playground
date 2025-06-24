@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from "@mui/material";
 import githubMarkWhiteLogo from "/github-mark-white.svg";
-import styles from './header.module.css';
+import styles from "./header.module.css";
 
 export default function Header() {
     return (
@@ -13,7 +13,7 @@ export default function Header() {
                 </Grid>
                 <Grid size={1}>
                     <a href="https://github.com/haymanmk/rgb_playground.git" target="_blank" rel="noopener noreferrer">
-                        <img width={24} height={24} src={githubMarkWhiteLogo} alt="GitHub Logo" />
+                        <img className={styles["github-logo"]} src={githubMarkWhiteLogo} alt="GitHub Logo" />
                     </a>
                 </Grid>
             </Grid>
